@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE bookdetails[
+<!ELEMENT bookdetails (bookname+)>
+<!ELEMENT book name(authorslist,authorname,add,phno,publishername,yearofpublication,price)>
+<!ELEMENT authorslist (#PCDATA)>
+<!ELEMENT authorname (#PCDATA)>
+<!ELEMENT add (#PCDATA)>
+<!ELEMENT phno (mobile,landline)>
+<!ELEMENT mobile (#PCDATA)>
+<!ELEMENT landline (#PCDATA)>
+<!ELEMENT publisherame (#PCDATA)>
+<!ELEMENT yearofpublication (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<bookdetails>
+<bookname>
+<authorslist>5</authorslist>
+<authorname>grishkarndu </authorname>
+<add>mangalore </add>
+<phno>
+<mobile>9844139154 </mobile>
+<ladline>245678</ladline>
+</phno>
+<publishername>jeevitha</publishername>
+<yearofpublication>1990</yearofpublication>
+<price>50000</price>
+</bookname>
+</bookdetails>
