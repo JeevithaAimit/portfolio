@@ -1,0 +1,65 @@
+section.education{
+    background: black;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    padding-bottom: 100px;
+    text-align: center;
+
+    }
+    .education-head{
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5rem;
+    color: green;
+    }
+    .education-head + p{
+    color: blue;
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 6rem;
+    font-weight: 400;
+    }
+    section.education .card-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+    }
+    section.education .card-grid .card{
+    background:white;
+    padding: 3rem 2rem;
+    position: relative;
+    text-align: center;
+    transition: all .2s ease;
+    }
+    section.education .card-grid .card img{
+    position: absolute;
+    top: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var();
+    }
+    section.education .card-grid .card h2{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    }
+    section.education .card-grid .card p{
+    font-family: 'Lato', sans-serif;
+    color:white;
+    line-height: 1.6;
+    }
+    section.education .card-grid .card:hover{
+    background:blue
+    }
+    section.education.card-grid .card:hover h2{
+    color:gold;
+    }
+    section.education .card-grid .card:hover p{
+    color: var(--white);
+    }
+    
+    
